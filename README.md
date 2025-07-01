@@ -1,4 +1,5 @@
-# 🔥 Controle Fire TV Stick via ADB com Interface Gráfica
+# 🔥 Controle Fire TV Stick via ADB com Interface Gráfica 
+[![Sponsor](https://img.shields.io/badge/Sponsor-%E2%9D%A4-lightgrey?logo=github&style=for-the-badge)](https://github.com/sponsors/dirfel)
 
 Este projeto permite controlar seu dispositivo **Amazon Fire TV Stick** através do **ADB (Android Debug Bridge)** usando uma interface gráfica feita em **Tkinter** com **Python**. Ele suporta controle remoto, envio de texto, captura de tela, varredura automática de dispositivos na rede, e muito mais.
 
@@ -147,4 +148,4 @@ Este projeto está sob a licença MIT. Sinta-se à vontade para usar e modificar
 
 ## ✨ Créditos
 
-Desenvolvido por [Dirfel](https://github.com/dirfel).
+Desenvolvido por [Dirfel](https://github.com/dirfel). [![Sponsor](https://img.shields.io/badge/Sponsor-%E2%9D%A4-lightgrey?logo=github&style=for-the-badge)](https://github.com/sponsors/dirfel)
