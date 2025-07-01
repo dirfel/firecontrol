@@ -87,6 +87,58 @@ firetv-control-gui/
 
 ---
 
+---
+
+## 🛠️ Como instalar e executar
+
+### 1. Clone o repositório:
+
+```bash
+git clone https://github.com/dirfel/firetv-control-gui.git
+cd firetv-control-gui
+```
+
+### 2. Crie e ative um ambiente virtual (venv):
+
+```bash
+# Windows
+python -m venv venv
+venv\Scripts\activate
+```
+
+### 3. Instale as dependências:
+
+```bash
+pip install -r requirements.txt
+```
+
+### 4. Execute o programa:
+
+```bash
+python main.py
+```
+
+## 🏗️ BONUS! Como gerar um executável (.exe) no Windows
+
+Você pode transformar este aplicativo em um executável usando o [PyInstaller](https://pyinstaller.org/):
+
+1. Instale o PyInstaller:
+    ```bash
+    pip install pyinstaller
+    ```
+
+2. Gere o executável:
+    ```bash
+    pyinstaller --noconfirm --onefile --windowed --add-data "comandos.json;." --add-data "config.json;." main.py
+    ```
+    - O executável será criado na pasta `dist` com o nome `main.exe`.
+    - O parâmetro `--windowed` evita que uma janela de terminal seja aberta junto com o app.
+    - Os parâmetros `--add-data` garantem que os arquivos `comandos.json` e `config.json` sejam incluídos no executável.
+
+3. Se precisar incluir outros arquivos, adicione mais parâmetros `--add-data`.
+
+4. Após a geração, distribua apenas o arquivo `dist/main.exe` e os arquivos necessários.
+
 ## 📃 Licença
 
 Este projeto está sob a licença MIT. Sinta-se à vontade para usar e modificar conforme necessário.
