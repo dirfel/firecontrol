@@ -1,0 +1,22 @@
+# Ignorar arquivos e pastas de cache do Python
+__pycache__/
+**/__pycache__/
+
+# Ignorar ambiente virtual
+venv/
+.venv/
+env/
+ENV/
+# Para garantir que subpastas também sejam ignoradas
+**/venv/
+**/.venv/
+**/env/
+**/ENV/
+
+# Arquivos de configuração do editor
+*.vscode/
+*.idea/
+
+# Arquivos de sistema
+.DS_Store
+Thumbs.db

@@ -1,0 +1,11 @@
+{
+  "↑": "input keyevent 19",
+  "↓": "input keyevent 20",
+  "←": "input keyevent 21",
+  "→": "input keyevent 22",
+  "OK": "input keyevent 23",
+  "Home": "input keyevent 3",
+  "Voltar": "input keyevent 4",
+  "Menu": "input keyevent 82",
+  "Play/Pause": "input keyevent 85"
+}
