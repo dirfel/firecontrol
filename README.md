@@ -28,8 +28,8 @@ Este projeto permite controlar seu dispositivo **Amazon Fire TV Stick** através
 ### 1. Clone o repositório:
 
 ```bash
-git clone https://github.com/dirfel/firetv-control-gui.git
-cd firetv-control-gui
+git clone https://github.com/dirfel/firecontrol.git
+cd firecontrol
 ```
 
 ### 2. Crie e ative um ambiente virtual (venv):
