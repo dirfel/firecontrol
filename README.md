@@ -49,7 +49,7 @@ pip install -r requirements.txt
 ### 4. Execute o programa:
 
 ```bash
-python main.py
+python main.pyw
 ```
 
 ---
@@ -67,7 +67,7 @@ python main.py
 
 ```
 firetv-control-gui/
-├── main.py
+├── main.pyw
 ├── adb_utils.py
 ├── config.py
 ├── firetv_gui.py
@@ -115,7 +115,7 @@ pip install -r requirements.txt
 ### 4. Execute o programa:
 
 ```bash
-python main.py
+python main.pyw
 ```
 
 ## 🏗️ BONUS! Como gerar um executável (.exe) no Windows
@@ -129,7 +129,7 @@ Você pode transformar este aplicativo em um executável usando o [PyInstaller](
 
 2. Gere o executável:
     ```bash
-    pyinstaller --noconfirm --onefile --windowed --add-data "comandos.json;." --add-data "config.json;." main.py
+    pyinstaller --noconfirm --onefile --windowed --add-data "comandos.json;." --add-data "config.json;." main.pyw
     ```
     - O executável será criado na pasta `dist` com o nome `main.exe`.
     - O parâmetro `--windowed` evita que uma janela de terminal seja aberta junto com o app.

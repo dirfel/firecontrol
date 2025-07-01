@@ -20,3 +20,8 @@ ENV/
 # Arquivos de sistema
 .DS_Store
 Thumbs.db
+
+# Arquivos e pastas de compilação
+build/
+dist/
+main.spec
